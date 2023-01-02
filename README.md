@@ -1,5 +1,34 @@
 # Getaround EU Backend Challenge (previously Drivy)
 
+## Usage
+
+```py
+$ python main.py --help
+Usage: main.py [-h] [--test]
+
+Generate ./data/output.json from ./data/input.json according to our rental service plan
+
+optional arguments:
+  -h, --help  show this help message and exit
+  --test      Check if the output is equal to the expected one (./data/expected_output.json)
+```
+
+## Unit tests
+
+From level4 (included), the `test.py` file contains unit tests. \
+It can be launched with `python test.py`
+
+## Documentation
+
+The challenge was developed:
+- with `python3.9.12` but *should* work with `python3.7` and above.
+- on VS Code with these extensions:
+  - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+  - [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
+- using [autopep8](https://pypi.org/project/autopep8/) as a formatter
+
+## Getaround
+
 Looking for a job? Check out our [open positions](https://uk.getaround.com.com/jobs).
 You can also take a look at our [engineering blog](https://drivy.engineering/) to learn more about the way we work.
 
